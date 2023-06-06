@@ -31,7 +31,7 @@ python3 -m venv 2305
 pushd .
 cd ~/Code
 git clone https://github.com/wfidev/alias
-cp alias/.bash_aliases
+cp alias/.bash_aliases ~
 popd
 echo "Restart bash to import new aliases"
 
